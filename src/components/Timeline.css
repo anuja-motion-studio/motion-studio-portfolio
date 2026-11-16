@@ -1,0 +1,8 @@
+.tl { margin-top: 64px; position: relative; cursor: ew-resize; touch-action: pan-y; user-select: none; }
+.tl .ruler { display: flex; justify-content: space-between; font-size: .72rem; color: var(--mute); margin-bottom: 6px; font-variant-numeric: tabular-nums; }
+.track { height: 34px; margin-bottom: 6px; position: relative; }
+.clip { position: absolute; top: 0; height: 100%; border-radius: 6px; background: var(--card); border: 1px solid var(--line); font-size: .75rem; color: var(--mute); padding: 6px 10px; white-space: nowrap; overflow: hidden; }
+.clip.v { background: color-mix(in srgb, var(--acc) 30%, var(--card)); border-color: var(--acc); color: var(--ink); }
+.clip.m { background: color-mix(in srgb, var(--acc2) 30%, var(--card)); border-color: var(--acc2); color: var(--ink); }
+.head { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--acc2); pointer-events: none; }
+.head span { position: absolute; top: -6px; left: 6px; transform: translateY(-100%); background: var(--acc2); color: #fff; font-size: .72rem; padding: 1px 7px; border-radius: 4px; font-variant-numeric: tabular-nums; white-space: nowrap; }

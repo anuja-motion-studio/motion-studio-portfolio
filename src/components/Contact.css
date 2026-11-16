@@ -1,0 +1,19 @@
+.contact { border-top: 1px solid var(--line); }
+.contact a.big {
+  display: inline-block;
+  font: 800 clamp(1.2rem, 3.2vw, 2rem)/1.1 "Bricolage Grotesque", sans-serif;
+  letter-spacing: -.03em; text-decoration: none; word-break: break-all;
+  background: linear-gradient(90deg, var(--acc), var(--acc2), var(--acc4));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.social { display: flex; gap: 22px; margin-top: 28px; flex-wrap: wrap; }
+.social a { color: var(--mute); width: 46px; height: 46px; border: 1px solid var(--line); border-radius: 50%; display: grid; place-items: center; transition: color .2s, border-color .2s, transform .2s; }
+.social a:hover { color: var(--acc2); border-color: var(--acc2); transform: translateY(-3px); }
+.social svg { width: 20px; height: 20px; fill: currentColor; }
+
+.form { display: grid; gap: 14px; }
+.form label { display: grid; gap: 6px; font-size: .9rem; color: var(--mute); }
+.form input, .form select, .form textarea { font: inherit; color: var(--ink); background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; width: 100%; }
+.form textarea { min-height: 120px; resize: vertical; }
+.form button { cursor: pointer; font: inherit; font-weight: 500; justify-self: start; }
+#fs { margin: 0; font-size: .9rem; color: var(--acc3); }

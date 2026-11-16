@@ -1,0 +1,3 @@
+.mq { overflow: hidden; margin-top: 56px; border-radius: 16px; padding: 16px 0; background: linear-gradient(90deg, var(--acc), var(--acc2), var(--acc4)); color: #fff; }
+.mq div { display: flex; gap: 40px; width: max-content; animation: mq 24s linear infinite; font: 800 1.5rem "Bricolage Grotesque", sans-serif; white-space: nowrap; }
+@keyframes mq { to { transform: translateX(-50%); } }
